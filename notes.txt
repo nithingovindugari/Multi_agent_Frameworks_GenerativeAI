@@ -1,0 +1,74 @@
+conda create -n devika python=3.10
+
+# Activate the environment
+conda activate devika
+
+Had some compatibility issues with the packages, so I had to use current active python vesion of repo
+
+# type which python to get the path of the python version
+which python
+
+# Install the packages
+/Users/Checkout/anaconda3/envs/devika/bin/python -m pip install -r req
+uirements.txt
+
+# if mac use the following command to install the node package manager
+brew install node
+
+npm init playwright@latest 
+
+#use typescript for the project and click enter for the rest of the options
+
+playwright install --with-deps
+
+# change the directory to the ui folder
+cd ui
+
+# install the node packages
+npm install
+
+# install the bun package manager
+curl -fsSL https://bun.sh/install | bash
+
+#  run dev using bun
+bun run dev
+
+# if it does not work, use the following command
+source ~/.zshrc and reactivate the environment using conda activate devika
+
+
+once done open new terminal and run the following command
+Activate the environment using the following
+
+ command conda activate devika
+change the directory to the devika folder ( Not Devika folder)
+cd devika
+
+# run the following command to start the server
+python devika.py  
+
+# wait until you get devika is up and running message
+Go back to the previous terminal and you can see and open it  http://localhost:3000/
+
+you should be able to see the devika app running
+
+# then got config.toml file and change the following
+firstly go to https://developers.google.com/custom-search/v1/introduction and get the api key and 
+change in place of google_search in the config.toml file
+
+then go to https://programmablesearchengine.google.com/controlpanel/all
+and get the search engine id and change in place of google_search_engine_id in the config.toml file
+
+
+similar do it for any llm api key am going with groq api key
+
+# once done if previous terminals were not responding open new terminal and  activate the environment using the following
+
+ conda activate devika and change the directory to the devika folder ( Not Devika folder ) and run the following command
+
+ python devika.py
+
+ # In new terminal activate the environment and change the directory to the ui folder and run the following command
+    conda activate devika
+    cd ui
+    bun run dev
