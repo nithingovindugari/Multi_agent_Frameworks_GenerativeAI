@@ -1,6 +1,0 @@
-[submodule "open_Devin/OpenDevin"]
-	path = open_Devin/OpenDevin
-	url = https://github.com/nithingovindugari/OpenDevin.git
-[submodule "Devika/devika"]
-	path = Devika/devika
-	url = https://github.com/nithingovindugari/devika.git
